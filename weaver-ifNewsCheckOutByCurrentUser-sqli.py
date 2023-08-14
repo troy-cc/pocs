@@ -1,4 +1,3 @@
-# python weaver-ifNewsCheckOutByCurrentUser-sqli-exp.py http://12580.xachyy.com:8081/dwr/call/plaincall/CptDwrUtil.ifNewsCheckOutByCurrentUser.dwr
 
 # coding:utf-8
 import requests
