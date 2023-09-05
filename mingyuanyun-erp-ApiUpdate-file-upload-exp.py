@@ -20,5 +20,6 @@ try:
     response=requests.get(url2, verify=False, timeout=15, allow_redirects=False)
     if 'hack' in response.text:
         print(f'[+] upload ok: {url2}')
+        print(f'  filecontent: `{content}`')
 except:
     print(f'[!] something wrong!')
